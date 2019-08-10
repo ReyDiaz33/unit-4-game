@@ -1,12 +1,12 @@
-
-#myContainer {
+.container {
 color: white;
 border:1px solid red;
-/* background-color: black; */
+background-color: black;
+font-family: 'Press Start 2P', cursive;
 }
 
-#row1{
-    font-family: 'Press Start 2P', cursive;
+.rulesConatiner{
+    color: white;
     padding: 5px;
     margin-bottom: 25px;
     font-size: 35px;

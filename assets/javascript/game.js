@@ -6,14 +6,17 @@ var infinityStone2 = [];
 var infinityStone3 = [];
 var infinityStone4 = [];
 
-function startGame(){
-    goalNumber = Math.floor(Math.random() * 99);
-    console.log(goalNumber);
+for(var i = 0; i < 4; i++){
+    var infinityStone= $("<div>");
+    infinityStone.attr("class", 'infintyStone');
 }
 
+console.log(goalNumbers)
 
 
-/* Suedo coding
+
+
+/* Psuedo coding
 - 4 crystals
 - every crystal has a random number between 1 - 12
 - a new radom number given to each crystal whether win or lose
