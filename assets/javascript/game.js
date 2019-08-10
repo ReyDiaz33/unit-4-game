@@ -8,16 +8,16 @@ $(document).ready(function () {
 var goalNumber = Math.floor(Math.random() * 100);
 console.log(goalNumber);
 
-var random = Math.floor(Math.random() * 12);
+var random = Math.floor(Math.random() * 12 + 1);
 console.log(random);
 
-var random2 = Math.floor(Math.random() * 12);
+var random2 = Math.floor(Math.random() * 12 + 1);
 console.log(random2);
 
-var random3 = Math.floor(Math.random() * 12);
+var random3 = Math.floor(Math.random() * 12 + 1);
 console.log(random3);
 
-var random4 = Math.floor(Math.random() * 12);
+var random4 = Math.floor(Math.random() * 12 + 1);
 console.log(random4);
 
 
@@ -69,7 +69,7 @@ console.log(random4);
         totalScore = totalScore + parseInt($("#infinityStone4").val());
         $("#totalScore").text(totalScore)
     });
-    
+
 
     // win
     if(totalScore === goalNumber){
