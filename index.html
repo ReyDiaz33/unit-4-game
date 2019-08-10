@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <!-- GAME.JS LINK -->
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"ntegrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Jquery Link-->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- CSS reset -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>  
+    <!-- GAME.JS LINK -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script> 
+     <!-- CSS reset -->
     <link rel="stylesheet" href="assets/css/reset.css">
     
     <title>HW4 Infinity Stone Collector</title>
@@ -62,9 +62,8 @@
      <div class="container" class="container3">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="row" id="goalNumber">
-                        (insertGoalNumber)
-                    </div>
+                    <div class="row" id="goalsNumber">0</div>
+
                             <div class="col-md-4" id="pixelThanos">
                                 <img src="assets/images/pixelThanos.gif" alt="">
                             </div>
@@ -85,19 +84,19 @@
     <div class="container" class="infinityStones">
             <div class="row">
                 <div class="col-md-1">
-                    <button id="infinityStones1" value="0"><img src="assets/images/infinityStone3.png" alt="green stone" ; height="100">
+                    <button id="infinityStone1" value="0"><img src="assets/images/infinityStone3.png" alt="green stone" ; height="100">
                 </div>
     
                 <div class="col-md-1">
-                    <button id="infinityStones2" value="0"><img class="crystals" src="assets/images/infinityStone4.png" alt="red stone" ; height="100">
+                    <button id="infinityStone2" value="0"><img class="crystals" src="assets/images/infinityStone4.png" alt="red stone" ; height="100">
                 </div>
     
                 <div class="col-md-1">
-                    <button id="infinityStones3" value="0"><img src="assets/images/infinityStone1.png" alt="purple stone" ; height="100">
+                    <button id="infinityStone3" value="0"><img src="assets/images/infinityStone1.png" alt="purple stone" ; height="100">
                 </div>
     
                 <div class="col-md-1">
-                    <button id="infinityStones4" value="0"><img src="assets/images/infinityStone2.png" alt="blue stone" ; height="100">
+                    <button id="infinityStone4" value="0"><img src="assets/images/infinityStone2.png" alt="blue stone" ; height="100">
         
                 </div>
             </div>
@@ -111,7 +110,7 @@
                 </div>
             </div>
             
-            <div class="row" id="row7">
+            <div class="row" id="totalScore">
                 <div class="col-md-6">
                     (insertScore)
                 </div>
