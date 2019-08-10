@@ -4,6 +4,7 @@ $(document).ready(function () {
     var losses = 0;
     var wins = 0;
     var totalScore = 0;
+
 // I know this could be shortend but HEY it works lol
 var goalNumber = Math.floor(Math.random() * 100);
 console.log(goalNumber);
@@ -29,6 +30,7 @@ console.log(random4);
         console.log($("#goalsNumber").val(goalNumber));
         goalNumber = goalNumber + parseInt($("#goalsNumber").val());
         $("#goalsNumber").text(goalNumber);
+
     });
 
 
