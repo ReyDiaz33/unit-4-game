@@ -1,28 +1,23 @@
+body{
+    background-image: url(../images/thanosBackground.jpg);
+}
 .container {
 color: white;
 border:1px solid red;
-background-color: black;
+/* background-color: black; */
 font-family: 'Press Start 2P', cursive;
 }
-
-.rulesConatiner{
-    color: white;
-    padding: 5px;
-    margin-bottom: 25px;
-    font-size: 35px;
-
+#row1{
+    font-size: 40px;
+    padding-bottom: 25px;
 }
 
-#row2 {
-    font-family: 'Press Start 2P', cursive;
+#row6{
+    padding-bottom: 25px;
 }
 
-#row4{
-    border: 1px black;
-}
-
-body{
-    background-image: url(../images/thanosBackground.jpg);
+#row7{
+    padding-bottom: 25px;
 }
 
 #pixelThanos{
@@ -31,5 +26,5 @@ body{
 
 .infinityStones{
     border: 10px pink;
-
+    
 }
