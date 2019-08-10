@@ -1,10 +1,6 @@
 var goalNumber= [];
 var losses = 0;
 var wins = 0;
-var infinityStone1 = [];
-var infinityStone2 = [];
-var infinityStone3 = [];
-var infinityStone4 = [];
 
 for(var i = 0; i < 4; i++){
     var infinityStone= $("<div>");

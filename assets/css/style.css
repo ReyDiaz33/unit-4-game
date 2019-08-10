@@ -7,6 +7,12 @@ border:1px solid red;
 /* background-color: black; */
 font-family: 'Press Start 2P', cursive;
 }
+
+#theRules{
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
 #row1{
     font-size: 40px;
     padding-bottom: 25px;
