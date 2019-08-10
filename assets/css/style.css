@@ -1,18 +1,29 @@
 
-body{
-    background-image: url(../images/thanosBackground.jpg);
-}
-
 #myContainer {
 color: white;
+border:1px solid red;
 }
 
-h1{
+#row1{
     font-family: 'Press Start 2P', cursive;
     padding: 5px;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+.crystals{
+    border: 100px;
 }
 
 #row2 {
     font-family: 'Press Start 2P', cursive;
 }
+
+#row4{
+    border: 1px black;
+}
+
+body{
+    background-image: url(../images/thanosBackground.jpg);
+}
+
 
