@@ -26,7 +26,7 @@ console.log(random4);
 
     $("#goalsNumber").on("ready", function(){
         $("#goalsNumber").val(goalNumber);
-        console.log($("#goalsNumber").val());
+        console.log($("#goalsNumber").val(goalNumber));
         goalNumber = goalNumber + parseInt($("#goalsNumber").val());
         $("#goalsNumber").text(goalNumber);
     });
@@ -68,17 +68,20 @@ console.log(random4);
         console.log($("#infinityStone4").val());
         totalScore = totalScore + parseInt($("#infinityStone4").val());
         $("#totalScore").text(totalScore)
-    })
+    });
     
+
+    // win
     if(totalScore === goalNumber){
         alert("YOU COLLECTED THE STONES BEFORE THANOS AND SAVED US ALL!");
-        wins++;
+        $("#wins") = wins++;
     }
     else{}
-
+    
+    // lose
     if(totalScore > goalNumber){
         alert("THANOS HAS COLLECTED THE STONES AND HAS SNAPPED YOU INTO DUST!")
-        losses++;
+        $("#losses")= losses++;
     }
 
 

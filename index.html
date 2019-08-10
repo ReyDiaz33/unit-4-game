@@ -9,20 +9,22 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"ntegrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        ntegrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Jquery Link-->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>  
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!-- GAME.JS LINK -->
-    <script type="text/javascript" src="assets/javascript/game.js"></script> 
-     <!-- CSS reset -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <!-- CSS reset -->
     <link rel="stylesheet" href="assets/css/reset.css">
-    
+
     <title>HW4 Infinity Stone Collector</title>
 </head>
 
 <body>
 
-    
+
     <!-- Container 1 Header-->
     <div class="container" ; id="myContainer">
         <div class="row" id="row1">
@@ -33,93 +35,99 @@
             </div>
         </div>
     </div>
-        
-     <!-- Container 2 Rules-->
+
+    <!-- Container 2 Rules-->
     <div class="container" class="rulesContainer">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2 id="theRules">THE RULES:</h2>
-                    <ul>
-                        <li>You will be given a random number at the start of the game.</li><br>
+        <div class="row">
+            <div class="col-md-6">
+                <h2 id="theRules">THE RULES:</h2>
+                <ul>
+                    <li>You will be given a random number at the start of the game.</li><br>
 
-                        <li> There are four crystals below. By clicking on a crystal you will add a specific amount of points
-                                to your score. </li><br>
-                        
-                        <li>You win the game by matching your total score to the random number, you lose the game if your total
-                                    scoregoes above the random number. </li><br>
+                    <li> There are four crystals below. By clicking on a crystal you will add a specific amount of
+                        points
+                        to your score. </li><br>
 
-                        <li>The value of each crystal is hidden from you until you click on it.</li><br>
+                    <li>You win the game by matching your total score to the random number, you lose the game if your
+                        total
+                        scoregoes above the random number. </li><br>
 
-                        <li>Each time when the game starts, the game will change the values of each crystal.</li><br>
-                    </ul>
-                   
-    
-                </div>
+                    <li>The value of each crystal is hidden from you until you click on it.</li><br>
+
+                    <li>Each time when the game starts, the game will change the values of each crystal.</li><br>
+                </ul>
+
+
             </div>
+        </div>
     </div>
-        
-    <!-- Container 3 goalNumber wins losses -->
-     <div class="container" class="container3">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="row" id="goalsNumber">0</div>
 
-                            <div class="col-md-4" id="pixelThanos">
-                                <img src="assets/images/pixelThanos.gif" alt="">
-                            </div>
-                </div>
-                
-                <div class="col-md-1">
-                    <div class="row">
-                        Wins: <span id="wins">0</span>
-                    </div>
-                    <div class="row">
-                        Losses:<span id="losses">0</span>
-                    </div>
+    <!-- Container 3 goalNumber wins losses -->
+    <div class="container" class="container3">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row" id="goalsNumber">0</div>
+
+                <div class="col-md-4" id="pixelThanos">
+                    <img src="assets/images/pixelThanos.gif" alt="">
                 </div>
             </div>
-     </div>
+
+            <div class="col-md-1">
+                <div class="row">
+                    Wins: <span id="wins">0</span>
+                </div> <br>
+                <div class="row">
+                    Losses:<span id="losses">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- container 4 infinity stones-->
     <div class="container" class="infinityStones">
-            <div class="row">
-                <div class="col-md-1">
-                    <button id="infinityStone1" value="0"><img src="assets/images/infinityStone3.png" alt="green stone" ; height="100">
-                </div>
-    
-                <div class="col-md-1">
-                    <button id="infinityStone2" value="0"><img class="crystals" src="assets/images/infinityStone4.png" alt="red stone" ; height="100">
-                </div>
-    
-                <div class="col-md-1">
-                    <button id="infinityStone3" value="0"><img src="assets/images/infinityStone1.png" alt="purple stone" ; height="100">
-                </div>
-    
-                <div class="col-md-1">
-                    <button id="infinityStone4" value="0"><img src="assets/images/infinityStone2.png" alt="blue stone" ; height="100">
-        
-                </div>
+        <div class="row">
+            <div class="col-md-1">
+                <button id="infinityStone1" value="0"><img src="assets/images/infinityStone3.png" alt="green stone" ;
+                        height="100">
             </div>
+
+            <div class="col-md-1">
+                <button id="infinityStone2" value="0"><img class="crystals" src="assets/images/infinityStone4.png"
+                        alt="red stone" ; height="100">
+            </div>
+
+            <div class="col-md-1">
+                <button id="infinityStone3" value="0"><img src="assets/images/infinityStone1.png" alt="purple stone" ;
+                        height="100">
+            </div>
+
+            <div class="col-md-1">
+                <button id="infinityStone4" value="0"><img src="assets/images/infinityStone2.png" alt="blue stone" ;
+                        height="100">
+
+            </div>
+        </div>
     </div>
 
     <!-- conatiner 6 Total score-->
     <div class="container" class="container6">
-            <div class="row">
-                <div class="col-md-3" id="row6">
-                    Your Total Score:
-                </div>
+        <div class="row">
+            <div class="col-md-3" id="row6">
+                Your Total Score:
             </div>
-            
-            <div class="row" id="totalScore">
-                <div class="col-md-6">
-                    (insertScore)
-                </div>
+        </div>
+
+        <div class="row" id="totalScore">
+            <div class="col-md-6">
+                (insertScore)
             </div>
+        </div>
     </div>
 
-            
-   
-</div>
+
+
+    </div>
 </body>
 
 </html>
