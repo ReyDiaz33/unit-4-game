@@ -1,12 +1,16 @@
 var goalNumber= [];
 var losses = 0;
 var wins = 0;
-var crystalNumber = [];
+var infinityStone1 = [];
+var infinityStone2 = [];
+var infinityStone3 = [];
+var infinityStone4 = [];
 
 function startGame(){
     goalNumber = Math.floor(Math.random() * 99);
     console.log(goalNumber);
 }
+
 
 
 /* Suedo coding

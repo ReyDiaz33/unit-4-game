@@ -2,6 +2,7 @@
 #myContainer {
 color: white;
 border:1px solid red;
+/* background-color: black; */
 }
 
 #row1{
@@ -9,9 +10,7 @@ border:1px solid red;
     padding: 5px;
     margin-bottom: 25px;
     font-size: 35px;
-}
-.crystals{
-    border: 100px;
+
 }
 
 #row2 {
@@ -26,4 +25,11 @@ body{
     background-image: url(../images/thanosBackground.jpg);
 }
 
+#pixelThanos{
+    justify-content: center
+}
 
+.infinityStones{
+    border: 10px pink;
+
+}
